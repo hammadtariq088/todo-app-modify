@@ -1,0 +1,112 @@
+body {
+  background-color: #b0b0ff;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+form {
+  display: flex;
+}
+
+.form-group {
+  text-align: center;
+  background: aliceblue;
+  height: 85vh;
+  width: 50rem;
+  padding: 5rem;
+  border-radius: 20px;
+  margin: 6rem auto;
+}
+
+h1{
+  font-size: 5rem;
+  margin-bottom: 20px;
+  font-style: italic;
+  text-transform: uppercase;
+  font-family: fantasy;
+  text-decoration: overline;
+  animation: heading-animation 3s linear infinite;
+}
+
+h2{
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-family: fantasy;
+  text-decoration: overline;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.task-field {
+  padding: 22px;
+  border-radius: 20px;
+  border: 1px solid #000;
+  font-size: 15px;
+  background: aliceblue;
+  color: black;
+  max-width: 27rem;
+}
+
+.task-button{
+  background-color: #b0b0ff;
+  border-color: #000;
+  color: #000;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.task-button:hover{
+  background: black;
+  color: white;
+  border-color: white;
+}
+
+.task-list{
+  background: black;
+  color: white;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 18px;
+  max-width: 40rem;
+  margin: 20px 0px;
+}
+
+.list-item {
+  text-align: left;
+  padding-left: 1rem;
+  align-self: flex-start;
+}
+
+.delete-icon {
+  font-size: 2.8rem;
+}
+
+.no-of-lists {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.delete-btn {
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.delete-btn:hover{
+  color: #b0b0ff;
+}
+
+@keyframes heading-animation{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+
+
+
+
